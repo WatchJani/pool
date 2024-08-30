@@ -33,7 +33,7 @@ package main
 
 import (
 	"fmt"
-	"s" // Import stack package
+	"github.com/WatchJani/pool" // Import stack package
 )
 
 func main() {
