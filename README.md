@@ -36,22 +36,6 @@ import (
 	"s" // Import stack package
 )
 
-// Define the `Pool` type with a generic type T
-type Pool[T any] struct {
-	store   []T
-	pointer int
-	stack   s.Stack[int]
-}
-
-// Create a new `Pool` with an initial capacity
-func New[T any](capacity int) Pool[T] {
-	return Pool[T]{
-		store: make([]T, capacity),
-		stack: s.New``
-
-### Using `Insert` and `Delete` Methods
-
-```go
 func main() {
 	// Create a pool for int type with an initial capacity of 10
 	pool := New 
