@@ -14,7 +14,7 @@
 1. To install the package, use go get:
 
     ```bash
-    go get github.com/WatchJani/pool@v1.0.0
+    go get github.com/WatchJani/pool@v1.0.1
     ```
 
 2. Run tests to ensure everything is working:
