@@ -1,4 +1,4 @@
-module root
+module github.com/WatchJani/pool
 
 go 1.22.0
 
