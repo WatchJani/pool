@@ -39,3 +39,8 @@ func (m *Pool[T]) Insert() *T {
 func (m *Pool[T]) Delete(index int) {
 	m.stack.Push(index)
 }
+
+// delete all from pool, and reuse memory again
+func (m *Pool[T]) Clear() {
+	m.pointer = 0
+}
